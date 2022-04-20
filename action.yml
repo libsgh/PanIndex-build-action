@@ -14,7 +14,7 @@ runs:
       shell: bash
     - name: Build
       run: |
-        bash <(curl -L https://raw.githubusercontent.com/libsgh/PanIndex-build-action/main/build.sh)
+        bash <(curl -L https://raw.githubusercontent.com/libsgh/PanIndex-build-action/test/build.sh)
       shell: bash
 branding:
   icon: 'package'
